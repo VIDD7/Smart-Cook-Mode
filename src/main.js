@@ -121,9 +121,9 @@ const alarmSound = document.getElementById("alarmSound");
 
 // state
 let timerInterval = null;
-let totalSeconds = 0;
-let isRunning = false;
-let hasStarted = false; // buat penanda timer lgi running
+let totalSeconds = 0; // sisa waktu
+let isRunning = false; // buat penanda timer lagi running
+let hasStarted = false; // buat penanda timer pernah dimulai
 let dijeda = false; // state untuk tanda dijeda
 
 // update tampilan waktu
@@ -133,7 +133,7 @@ function updateTimerDisplay() {
   const seconds = totalSeconds % 60;
 
   timerDisplay.innerHTML =
-  `${String(hours).padStart(2, 0)}:` +
+  `${String(hours).padStart(2, "0")}:` +
   `${String(minutes).padStart(2, "0")}:` +
   `${String(seconds).padStart(2, "0")}`;
 }
