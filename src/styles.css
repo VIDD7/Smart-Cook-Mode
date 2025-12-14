@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #F8F9FE 0%, #E7E7FF 100%);
+  color: #000;
+}
+
+html {
+  height: 100%;
+}
+
+.container-header {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 70px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.nama {
+  color: #48197F;
+  font-size: 18px;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.nav-link {
+  display: flex;
+  font-size: 18px;
+  gap: 15px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.nav-link li {
+  list-style: none;
+  margin-left: auto;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: #48197F;
+}
+
+footer {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+footer p {
+  display: flex;
+  color: #48197F;
+  font-weight: bold;
+  padding: 10px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  max-width: 1200px;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+}
+
+.content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.timer-display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  height: 485px;
+}
+
+.timer-title {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#timer {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#timer-status {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.timer-controls {
+  margin-top: 20px;
+}
+
+#start-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 20px 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#stop-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 20px 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#reset-button {
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  padding: 20px 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.preset-makanan {
+  padding: 20px;
+  border-radius: 10px;
+  height: 485px;
+}
+
+.section-title {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#tab-content {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.tab {
+  flex: 1;
+  padding: 12px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.4s ease;
+}
+
+.tab-active {
+  background-color: #48197F;
+  color: #fff;
+}
+
+#data-category {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.info-kategori {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 110px;
+  text-align: center;
+}
+
+.item-preset {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #000;
+  height: 160px;
+}
+
+.item-preset:hover {
+  background-color: #48197F;
+  color: #fff;
+  border: 2px solid #000;
+}
+
+.set-timer-btn {
+  padding: 8px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  background-color: #48197F;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.set-timer-btn:hover {
+  background-color: #fff;
+  color: #48197F;
+  border: 2px solid #000;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info p {
+  padding-top: 10px;
+  height: 40px;
+}
+
+
+/* style buat about page */
+.main-content-about {
+  max-width: 1200px;
+  height: auto;
+  margin: 30px;
+}
+
+.main-content-about h2 {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.desc {
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.list {
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+.list li {
+  margin-bottom: 5px;
+  font-size: 20px;
+}

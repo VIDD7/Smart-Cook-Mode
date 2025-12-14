@@ -1,0 +1,3 @@
+DOKUMENTASI PROJEK SMART COOK MODE
+
+untuk variabel presets pakai object of arrays
