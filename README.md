@@ -1,7 +1,7 @@
 "SMART COOK MODE"
 
 TUGAS PROJEK UAS PWD SEMESTER 1 POLMAN BABEL<br>
-Dosen Pengajar: IBU YANG AGITA RINDRI<br>
+Dosen Pengajar: IBU YANG AGITA RINDRI S.Kom, M.Eng<br>
 Materi pembahasan: Java Script.<br>
 Anggota:<br>
 1. David Guntoro, NPM: 1062535;
