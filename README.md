@@ -6,7 +6,7 @@ Materi pembahasan: Java Script.<br>
 Anggota:<br>
 1. David Guntoro, NPM: 1062535;
 2. Fariz Alfarizi, NPM: 1062537;
-3. Tiara Citra Lestari, NPM: 10625;
+3. Tiara Citra Lestari, NPM: 1062558;
 
 Latar Belakang:
 
