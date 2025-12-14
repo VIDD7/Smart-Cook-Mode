@@ -220,7 +220,7 @@ function resetTimer() {
   alarmSound.currentTime = 0; 
 };
 
-// event listener untuk button start, stop, reset
+// add event listener untuk button start, jeda, and reset
 startBtn.addEventListener("click", startTimer);
 stopBtn.addEventListener("click", jedaTimer);
 resetBtn.addEventListener("click", resetTimer);
